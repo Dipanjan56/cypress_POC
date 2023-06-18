@@ -1,4 +1,7 @@
+/// <reference types="Cypress" />
+
 // Test Case 3: Validate the parameters of API
+
 describe('API Test - Validate Parameters', () => {
     let usersData;
   

@@ -2,6 +2,8 @@
 /// <reference types="Cypress-iframe" />
 import "cypress-iframe"
  
+// Test Case-1: Validate the EMI pie chart
+
 describe('EMI Calculator - Pie Chart', function() {
     it('TC_1: validate the EMI pie chart values',function() {
         //ignoring/bypassing cross-origin error

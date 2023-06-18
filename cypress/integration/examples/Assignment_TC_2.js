@@ -1,7 +1,9 @@
 /// <reference types="Cypress" />
 /// <reference types="Cypress-iframe" />
 import "cypress-iframe"
- 
+
+// Test Case-2: Validate the EMI bar chart
+
 describe('EMI Calculator - Bar Chart', function() {
     it('TC_2: validate the EMI bar chart values',function() {
         //ignoring/bypassing cross-origin error
